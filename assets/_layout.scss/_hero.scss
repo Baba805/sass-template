@@ -1,0 +1,41 @@
+#hero{
+    .container{
+        width: 50%;
+        margin:100px auto;
+        text-align: center;
+        h5{
+            color: #96BB7C;
+        }
+        h1{
+            color: #252B42;
+            @include nav-font;
+            font-size: 58px;
+        }
+        h4{
+            color: #737373;
+           @include nav-font;
+            font-size: 20px;
+        }
+        .buttons{
+            display: flex;
+             justify-content:center;
+            
+            .get{
+                background-color: #96BB7C;
+                border-radius: 5px;
+                padding: 15px 40px;
+                color: white;
+                border: 1px solid green;
+                margin-right: 10px;
+            }
+            
+           .learn{
+            background: #FFFFFF;
+            padding: 15px 40px;
+            color: #96BB7C;
+            border: 2px solid #96BB7C;
+            border-radius: 5px;
+           }
+        }
+    }
+}

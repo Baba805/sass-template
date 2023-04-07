@@ -1,0 +1,159 @@
+header {
+  background-color: #EFF8ED;
+}
+header .container {
+  width: 80%;
+}
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+header .container nav .nav_left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+header .container nav .nav_left h2 {
+  color: #252B42;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+}
+header .container nav .nav_left ul {
+  display: flex;
+}
+header .container nav .nav_left ul li {
+  list-style: none;
+  color: #737373;
+}
+header .container nav .nav_left ul li a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 10px;
+  color: #737373;
+}
+header .container nav .nav_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+header .container nav .nav_right .login {
+  color: #96BB7C;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+}
+header .container nav .nav_right .join_us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 15px;
+  text-decoration: none;
+  background-color: #96BB7C;
+}
+
+#hero .container {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+#hero .container h5 {
+  color: #96BB7C;
+}
+#hero .container h1 {
+  color: #252B42;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  font-size: 58px;
+}
+#hero .container h4 {
+  color: #737373;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  font-size: 20px;
+}
+#hero .container .buttons {
+  display: flex;
+  justify-content: center;
+}
+#hero .container .buttons .get {
+  background-color: #96BB7C;
+  border-radius: 5px;
+  padding: 15px 40px;
+  color: white;
+  border: 1px solid green;
+  margin-right: 10px;
+}
+#hero .container .buttons .learn {
+  background: #FFFFFF;
+  padding: 15px 40px;
+  color: #96BB7C;
+  border: 2px solid #96BB7C;
+  border-radius: 5px;
+}
+
+.containerr {
+  width: 80%;
+  margin: 300px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.containerr .hooli img {
+  color: #737373;
+  width: 102.99px;
+  height: 44.81px;
+}
+
+#package .container {
+  width: 40%;
+  margin: 50px auto;
+}
+#package .container p {
+  color: #96BB7C;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+}
+#package .container h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #252B42;
+  font-size: 40px;
+  line-height: 50px;
+  Letter-spacing: 0.2 px;
+}
+#package .container span {
+  color: #737373;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}/*# sourceMappingURL=main.css.map */

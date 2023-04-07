@@ -1,0 +1,29 @@
+#package {
+    .container {
+        width: 40%;
+        margin: 50px auto;
+        
+
+        p {
+            color: #96BB7C;
+            @include nav-font;
+        }
+
+        h2 {
+            @include nav-font;
+            color: #252B42;
+            font-size: 40px;
+            line-height: 50px;
+            Letter-spacing: 0.2 px;
+        }
+
+        span {
+            color: #737373;
+            @include nav-font;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+
+        }
+    }
+}
